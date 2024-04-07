@@ -1,7 +1,7 @@
 name: Build and test of Java Project
 on: [push]
 jobs:
-  buils:
+  build:
     runs-on: macos-latest
     steps:
     - uses: action/checkout@v2
